@@ -1,0 +1,9 @@
+/* external style sheet */
+
+body {
+    background-color: #a4fc9f;
+}
+
+*{
+    border: 1px dotted blue;
+}
