@@ -7,3 +7,16 @@ body {
 *{
     border: 1px dotted blue;
 }
+
+p {
+    padding: 5px;
+}
+
+ul {
+    background-color: #a3c2f0;
+}
+
+nav ul {
+    background-color: #89d9c9;
+}
+
