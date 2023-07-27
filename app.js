@@ -8,9 +8,9 @@ console.log(usersName);
 
 document.write("Howdy! I am so happy you're here! I also love " + usersName);
 
-if (usersName == "dog" or "dogs" or "Dog" or "Dogs") {
+if (usersName == "dog") {
     alert("Me too! I love everything about dogs!")
-} else if (usersName == "cat" or "cats" or "Cat" or "Cats"){
+} else if (usersName == "cat"){
     alert("Cats are pretty cool, too! Taylor Swift has three of them!")
 } else {
     alert("Oh, ok. I hope you at least have an animal you love!")
