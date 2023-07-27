@@ -1,12 +1,12 @@
 'use strict';
 
 console.log("I am in the HTML");
-alert("Welcome! I hope you love dogs!");
+alert("Welcome! I hope you love Scout!");
 
 const usersName = prompt("Would you rather have a dog or a cat?");
 console.log(usersName); 
 
-document.write("Howdy! I am so happy you're here! I also love " + usersName);
+document.write(usersName + " is a great choice!");
 
 if (usersName == "dog") {
     alert("Me too! I love everything about dogs!")
