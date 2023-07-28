@@ -27,6 +27,6 @@ function rateMyPage(){
     let rating = prompt("How many stars would you rate my page? 1-5");
 
     for (let i = 0; i < rating; i++){
-        document.write('<img src="scoutandsnow.jpg" alt="german shepherd sitting in the snow regally"')
+        document.write('<img class="loop-img" src="scoutandsnow.jpg" alt="german shepherd sitting in the snow regally"')
     }
 }
