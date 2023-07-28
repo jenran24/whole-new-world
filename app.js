@@ -8,10 +8,11 @@ console.log(usersName);
 
 function getUsername(); {
     const usersName = prompt("Would you rather have a dog or a cat?");
-    return document.write(usersName);
+    return usersName;
 }
 
 function greetUser(){
+    let usersName = prompt("Would you rather have a dog or a cat?")
     while(usersName == ""){
         usersName = prompt("Oh no, I need an answer!! I need to know if you would rather have a cat or a dog?");
     }
