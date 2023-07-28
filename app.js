@@ -8,8 +8,6 @@ function getUsername(); {
     return usersName;
 }
 
-console.log(getUsername());
-
 function greetUser(){
     while(usersName == ""){
         usersName = prompt("Oh no, I need an answer!! I need to knwo if you would rather have a cat or a dog?");
@@ -34,5 +32,3 @@ function rateMyPage(){
         document.write('<img class="loop-img" src="scoutandsnow.jpg" alt="german shepherd sitting in the snow regally" />')
     }
 }
-
-document
