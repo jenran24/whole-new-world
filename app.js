@@ -12,12 +12,17 @@ getUsername();
 
 console.log(getUsername());
 
-document.write(usersName + " is a great choice!");
 
-if (usersName == "dog") {
+function greetUser(){
+    if (usersName == "dog") {
     alert("Me too! I love everything about dogs!")
 } else if (usersName == "cat"){
     alert("Cats are pretty cool, too! Taylor Swift has three of them!")
 } else {
     alert("Oh, ok. I hope you at least have an animal you love!")
 }
+
+}
+
+document.write(usersName + " is a great choice!");
+
