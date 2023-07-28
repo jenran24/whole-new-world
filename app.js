@@ -3,7 +3,8 @@
 console.log("I am in the HTML");
 alert("Welcome! I hope you love Scout!");
 
-prompt("Would you rather have a dog or a cat?")
+const usersName = prompt("Would you rather have a dog or a cat?")
+console.log(usersName);
 
 function getUsername(); {
     const usersName = prompt("Would you rather have a dog or a cat?");
