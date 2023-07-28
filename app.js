@@ -3,7 +3,7 @@
 console.log("I am in the HTML");
 alert("Welcome! I hope you love Scout!");
 
-function getUsername() {
+function getUsername(); {
     const usersName = prompt("Would you rather have a dog or a cat?");
     return usersName;
 }
@@ -11,7 +11,6 @@ function getUsername() {
 getUsername();
 
 console.log(getUsername());
-
 
 function greetUser(){
     if (usersName == "dog") {
@@ -24,5 +23,10 @@ function greetUser(){
 
 }
 
-document.write(usersName + " is a great choice!");
+function rateMyPage(){
+    let rating = prompt("How many stars would you rate my page? 1-5");
 
+    for (let i = 0; i < rating; i++){
+        document.write('<img src="scoutandsnow.jpg" alt="german shepherd sitting in the snow regally"')
+    }
+}
