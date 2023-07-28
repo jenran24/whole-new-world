@@ -3,8 +3,14 @@
 console.log("I am in the HTML");
 alert("Welcome! I hope you love Scout!");
 
-const usersName = prompt("Would you rather have a dog or a cat?");
-console.log(usersName); 
+function getUsername() {
+    const usersName = prompt("Would you rather have a dog or a cat?");
+    return usersName;
+}
+
+getUsername();
+
+console.log(getUsername());
 
 document.write(usersName + " is a great choice!");
 
