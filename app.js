@@ -1,7 +1,9 @@
 'use strict';
 
 console.log("I am in the HTML");
-document.write("Welcome! I hope you love Scout!");
+alert("Welcome! I hope you love Scout!");
+
+prompt("Would you rather have a dog or a cat?")
 
 function getUsername(); {
     const usersName = prompt("Would you rather have a dog or a cat?");
