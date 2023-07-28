@@ -5,6 +5,9 @@ alert("Welcome! I hope you love Scout!");
 
 function getUsername(); {
     const usersName = prompt("Would you rather have a dog or a cat?");
+
+    console.log(usersName)
+
     return usersName;
 }
 
@@ -26,7 +29,11 @@ function greetUser(){
 function rateMyPage(){
     let rating = prompt("How many stars would you rate my page? 1-5");
 
+    console.log(rating)
+
     for (let i = 0; i < rating; i++){
-        document.write('<img class="loop-img" src="scoutandsnow.jpg" alt="german shepherd sitting in the snow regally"')
+        document.write('<img class="loop-img" src="scoutandsnow.jpg" alt="german shepherd sitting in the snow regally" />')
     }
 }
+
+document
