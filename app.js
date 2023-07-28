@@ -5,12 +5,12 @@ document.write("Welcome! I hope you love Scout!");
 
 function getUsername(); {
     const usersName = prompt("Would you rather have a dog or a cat?");
-    return usersName;
+    return document.write(usersName);
 }
 
 function greetUser(){
     while(usersName == ""){
-        usersName = prompt("Oh no, I need an answer!! I need to knwo if you would rather have a cat or a dog?");
+        usersName = prompt("Oh no, I need an answer!! I need to know if you would rather have a cat or a dog?");
     }
 
     if (usersName == "dog") {
