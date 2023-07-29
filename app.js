@@ -7,8 +7,10 @@ const usersName = prompt("Would you rather have a dog or a cat?");
 
 function getUsersname(){
     let usersName = prompt("Would you rather have a dog or a cat?");
-    console.log(usersName);
+    return(usersName);
 }
+
+getUsersname();
 
 function greetUser(){
     let usersName = prompt("Would you rather have a dog or a cat?");
