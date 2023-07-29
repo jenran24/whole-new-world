@@ -3,24 +3,23 @@
 console.log("I am in the HTML");
 alert("Welcome! I hope you love Scout!");
 
-const usersName = prompt("Would you rather have a dog or a cat?");
-
 function getUsersname(){
-    let usersName = prompt("Would you rather have a dog or a cat?");
-    return(usersName);
+    const usersName = prompt("Would you rather have a dog or a cat?");
+    return usersName;
 }
 
-getUsersname();
+let theirName = getUsersname();
+
+console.log(theirName);
 
 function greetUser(){
-    let usersName = prompt("Would you rather have a dog or a cat?");
     while(usersName == ""){
         usersName = prompt("Oh no, I need an answer!! I need to know if you would rather have a cat or a dog?");
     }
 
-    if (usersName == "dog") {
+    if (theirName == "dog") {
     document.write("Me too! I love everything about dogs!");
-    } else if (usersName == "cat"){
+    } else if (theirName == "cat"){
     document.write("Cats are pretty cool, too! Taylor Swift has three of them!");
     } else {
     document.write("Oh, ok. I hope you at least have an animal you love!");
